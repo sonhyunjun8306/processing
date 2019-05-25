@@ -1,0 +1,15 @@
+size(480,120);
+beginShape();
+fill(255,0,0);
+vertex(50,120);
+vertex(100,90);
+vertex(110,55);
+vertex(90,35);
+vertex(180,60);
+vertex(160,80);
+vertex(200,90);
+vertex(140,100);
+vertex(130,120);
+endShape(CLOSE);
+strokeWeight(10);
+point(150,65);
