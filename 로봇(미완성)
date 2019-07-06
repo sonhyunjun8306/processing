@@ -1,0 +1,22 @@
+float angle = 0;
+float angleDrection=1;
+float speed=0.005;
+void setup(){
+  size(120,200);
+}
+void draw(){
+  background(200);
+  translate(20,25);
+  rotate(angle);
+  strokeWeight(12);
+  line(0,0,40,0);
+  translate(40,0);
+  rotate(angle*2.0);
+  strokeWeight(6);
+  line(0,0,30,0);
+  
+  
+  
+ 
+  
+}
