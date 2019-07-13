@@ -1,0 +1,17 @@
+float s=10;
+int d=20;
+float x,y;
+
+void setup(){
+  size(240,120);
+  x=width/2;
+  y=height/2;
+}
+void draw(){
+  x+=random(-s,s);
+  y+=random(-s,s);
+  x=constrain(x,0,width/3);
+  y=constrain(y,0,height/3);
+  ellipse(x,y,d,d);
+  fill(#FF0000);
+}
